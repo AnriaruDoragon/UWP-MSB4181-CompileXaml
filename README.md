@@ -27,4 +27,5 @@ Microsoft.NETCore.UniversalWindowsPlatform | 6.2.10
 ---
 
 #### Fix
-*soon*
+1. Delete `/obj` folder
+1. Try to package
