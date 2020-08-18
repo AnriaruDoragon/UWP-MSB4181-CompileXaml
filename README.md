@@ -29,5 +29,7 @@ Microsoft.NETCore.UniversalWindowsPlatform | 6.2.10
 #### Fix
 1. Delete `/obj` folder
 1. Try to package
+
 OR
+
 1. Build your project from a Developer Command prompt with this command: `msbuild /p:AppxBundlePlatforms=x86 /p:Platform=x86 /p:Configuration=Release /p:BuildAppxUploadPackageForUap=true /bl`
