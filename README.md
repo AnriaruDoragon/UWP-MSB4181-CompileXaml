@@ -5,6 +5,7 @@ Trying to reproduce MSB4181 "CompileXaml" error in Visual Studio.
 -------------------------------------------|---------------------
 Windows                                    | 10 Pro (18363.1016) 
 Visual Studion Community 2019              | 16.7.1
+Microsoft.UI.Xaml                          | 2.4.3
 Microsoft.NETCore.UniversalWindowsPlatform | 6.2.10
 
 
