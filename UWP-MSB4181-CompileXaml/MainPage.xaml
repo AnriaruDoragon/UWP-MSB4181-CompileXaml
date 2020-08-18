@@ -9,6 +9,25 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <ScrollViewer Padding="5,5,5,10">
+            <StackPanel Orientation="Vertical" Margin="0,0,0,25">
+                <TextBlock x:Name="HelloTextBlock" Text="Hello UWP!" FontSize="36" Margin="0,0,0,10"/>
+                <TextBlock x:Name="ErrorTestTextBlock" Text="Test MSB4181 CompileXaml" FontSize="28" Margin="0,0,0,50"/>
+                <TextBox x:Name="TestTextBox" TextWrapping="Wrap" AcceptsReturn="True" FontSize="28" Margin="0,0,0,10"/>
+                <Button x:Name="TestButton" Content="Test" FontSize="28" Width="250" Click="TestButton_Click" Margin="0,0,0,10"/>
+                <Border Margin="0,0,0,50">
+                    <TextBlock x:Name="TestTextBlock" TextWrapping="WrapWholeWords" FontSize="30"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,50">
+                    <ComboBox x:Name="TestComboBox" MinWidth="400" FontSize="28" PlaceholderText="boop" SelectionChanged="TestComboBox_SelectionChanged" Margin="0,0,10,0">
+                        <ComboBoxItem Content="Hello"/>
+                        <ComboBoxItem Content="UWP"/>
+                        <ComboBoxItem Content="WOW"/>
+                        <ComboBoxItem Content="test"/>
+                    </ComboBox>
+                    <TextBlock x:Name="ComboBoxTestTextBlock" FontSize="30"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
+﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x419
 
@@ -25,6 +13,16 @@ namespace UWP_MSB4181_CompileXaml
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void TestButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.TestTextBlock.Text = this.TestTextBox.Text;
+        }
+
+        private void TestComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            this.ComboBoxTestTextBlock.Text = (string)(this.TestComboBox.SelectedItem as ComboBoxItem).Content;
         }
     }
 }
