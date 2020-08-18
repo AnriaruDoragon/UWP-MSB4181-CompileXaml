@@ -12,5 +12,19 @@ Microsoft.NETCore.UniversalWindowsPlatform | 6.2.10
 
 ---
 
-#### Reproduce steps:
+#### Steps to reproduce error:
+1. Create project
+1. Add some elements with `x:Name`
+1. Run it
+1. Package it
+1. Reload Studio
+1. Change `x:Name` in elements or delete element
+1. Run it
+1. Everyting works  fine
+1. Try to package it
+1. Get `error MSB4181: The "CompileXaml" task returned false but did not log`
+
+---
+
+#### Fix
 *soon*
