@@ -11,7 +11,7 @@
     <Grid>
         <ScrollViewer Padding="5,5,5,10">
             <StackPanel Orientation="Vertical" Margin="0,0,0,25">
-                <TextBlock x:Name="Hm_ErrorTestTextBlock" Text="Test MSB4181 CompileXaml" FontSize="28" Margin="0,0,0,50"/>
+                <TextBlock x:Name="HHHHTestTextBlock_1234656" Text="Test MSB4181 CompileXaml" FontSize="28" Margin="0,0,0,50"/>
                 <TextBox x:Name="TestTextBox" TextWrapping="Wrap" AcceptsReturn="True" FontSize="28" Margin="0,0,0,10"/>
                 <Button x:Name="TestButton" Content="Test" FontSize="28" Width="250" Click="TestButton_Click" Margin="0,0,0,10"/>
                 <Border Margin="0,0,0,50">
