@@ -8,7 +8,7 @@ Visual Studion Community 2019              | 16.7.1
 Microsoft.UI.Xaml                          | 2.4.3
 Microsoft.NETCore.UniversalWindowsPlatform | 6.2.10
 
-
+**[Broken `/obj` folder on Google Drive](https://drive.google.com/file/d/1jFlb95YUqrqg97Fg65MIhsDqzUO-6n3m/view?usp=sharing)**
 
 ---
 
@@ -21,8 +21,13 @@ Microsoft.NETCore.UniversalWindowsPlatform | 6.2.10
 1. Change `x:Name` in elements or delete element
 1. Run it
 1. Everyting works  fine
-1. Try to package it
-1. Get `error MSB4181: The "CompileXaml" task returned false but did not log`
+1. Try to package project
+
+OR
+
+1. Clone project
+1. Add broken `/obj` folder to your project, [Download from Google Drive](https://drive.google.com/file/d/1jFlb95YUqrqg97Fg65MIhsDqzUO-6n3m/view?usp=sharing)
+1. Try to package project
 
 ---
 
