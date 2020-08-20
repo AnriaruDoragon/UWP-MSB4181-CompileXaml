@@ -1,6 +1,8 @@
 # error MSB4181: The "CompileXaml" task returned false but did not log
 Trying to reproduce MSB4181 "CompileXaml" error in Visual Studio.
 
+**[microsoft/microsoft-ui-xaml Issuse #3067](https://github.com/microsoft/microsoft-ui-xaml/issues/3067)**
+
  App                                       | Version
 -------------------------------------------|---------------------
 Windows                                    | 10 Pro (18363.1016) 
