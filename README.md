@@ -34,7 +34,8 @@ OR
 ---
 
 #### Fix
-1. Build your project from a Developer Command prompt with `msbuild` this command: `msbuild /p:AppxBundlePlatforms="x86|x64" /p:Platform=x86 /p:Configuration=Release /p:BuildAppxUploadPackageForUap=true /bl`
+1. Build your project from a Developer Command prompt with `msbuild`: 
+`msbuild /p:AppxBundlePlatforms="x86|x64" /p:Platform=x86 /p:Configuration=Release /p:BuildAppxUploadPackageForUap=true /bl`
 
 OR
 
